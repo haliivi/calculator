@@ -71,4 +71,15 @@ x = int((ws - w) / 2)
 y = int((hs - h) / 2)
 root.geometry('+{0}+{1}'.format(x, y))
 
+# TODO: rewrite program
+# class App(tk.Frame):
+#     def __init__(self):
+#         super.__init__()
+#         super().__init__(**kw)
+#
+#
+# if __name__ == '__main__':
+#     root = tk.Tk()
+#     app = App(root)
+#     root.mainloop()
 root.mainloop()
